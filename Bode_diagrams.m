@@ -1,4 +1,4 @@
-fig=figure("Name",'diagrame','NumberTitle','off');
+fig=figure("Name",'Bode diagrams','NumberTitle','off');
 R=106.1;
 C=15e-6;
 frecventa=logspace(0, 3, 1000);
