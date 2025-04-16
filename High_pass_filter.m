@@ -355,7 +355,7 @@ set(flt,'XData',t);
 set(flt,'YData',x_atn);
 else
     if f > fc
-        x_atn=x;
+        x_atn=0+ampl*sin(2*pi*f*t+phi);
         set(flt,'XData',t);
         set(flt,'YData',x_atn);
     elseif f < fc
